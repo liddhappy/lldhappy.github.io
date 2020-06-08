@@ -1112,7 +1112,7 @@ pre .javascript .function {
   position: relative;
   display: inline-block;
   padding: 0 40px;
-  color: #fff;
+  color: #ffb6c1 !important;
   background: #222;
   border-bottom: none;
 }
@@ -1208,6 +1208,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: #ffb6c1 !important;
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
@@ -1823,7 +1824,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #789d8f;
+  background: #4117ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3120,4 +3121,31 @@ pre .javascript .function {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background-image: url("/images/ziluolan01.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+.footer-inner {
+  color: #ffb6c1;
+}
+#sidebar {
+  background: url("/images/background01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#sidebar p,
+#sidebar span,
+#sidebar a {
+  color: #ffb6c1;
+}
+.header-inner {
+  opacity: 0.8;
+}
+.main-inner {
+  opacity: 0.8;
 }
